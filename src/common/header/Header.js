@@ -138,13 +138,13 @@ class Header extends Component{
   }
 
   handleAccount = ()=>{
-    // Perform navigate to Profile page by clicking on My Account dropdown action
+    // Below code performs navigate to Profile page by clicking on My Account dropdown action
     this.props.handleAccount();
     this.handleClose();
   }
 
   handleLogout = ()=>{
-    // Perform logout operation
+    // This code performs logout operation
     this.props.handleLogout();
     this.handleClose();
   }
